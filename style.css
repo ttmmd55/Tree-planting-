@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.button{
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+  z-index: 100;
+  width: 220px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  
+  background-color: green;
+  border: solid 1px green;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  min-width: 200px;
+  cursor: pointer;
+}
